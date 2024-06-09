@@ -86,22 +86,22 @@ body {
 }
 
 /* Botón de verificación*/
-.verificador {
+.ingreso {
     transform: translate(0, 20px);
 }
 
-.verificador button {
+.ingreso button {
     border-radius: 25%;
     border: none;
     background-color: #99ff00;
 }
 
-.verificador button:hover {
+.ingreso button:hover {
     background-color: white;
     cursor: pointer;
 }
 
-.verificador p {
+.ingreso p {
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     font-weight: bold;
     font-size: 1.5em;

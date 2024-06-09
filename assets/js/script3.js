@@ -46,5 +46,5 @@ function contrasena() {
     }
 }
 
-// Se ejecuta la función "contrasena" al presionar el botón de verificación
-document.getElementById('verificar').addEventListener('click', contrasena);
+// Se ejecuta la función "contrasena" al presionar el botón ingresa
+document.getElementById('ingresar').addEventListener('click', contrasena);
