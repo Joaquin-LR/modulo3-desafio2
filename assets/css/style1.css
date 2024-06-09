@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #1c1c1c;;
+}
+
+/* Botón de regreso al HOME */
+.boton-home button {
+    margin: 1% 0 0 1% ;
+    display: flex;
+    justify-content: left;
+    background: #99ff00;
+    padding: 10px;
+    position: absolute;
+    z-index: 9999
+}
+
+.boton-home button:hover {
+    background-color: white;
+    filter: drop-shadow(0px 0px 5px rgb(0, 0, 0));
+    cursor: pointer;
+}
+
+.boton-home a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.boton-home p {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2em;
+    padding: 0 10px 0 5px;
+}
+
+.boton-home i {
+    transform: translate(0, 20px);
+}
+
+/* Contenedor general */
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.gatito img {
+    width: 60%;
+}
+
+.borde-rojo {
+    border: 2px solid red;
+}
